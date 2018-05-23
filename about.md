@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Brian Cocolicchio 
-Pronounced(CO-CO-LEE-KEY-OH)
 permalink: /about/
 ---
 
- I am a statistician/data scientist currently working as an adjunct instructor in the Science Department at Rockland Community College where I teach Chemistry, Engineering, Math and Physics. When I worked in industry I was a Six Sigma Black Belt and quality engineer in the pharmaceutical, health care and medical device industries. Previous to that I worked as an R & D Engineer in the aerospace and fuel cell industries.  I have a BS in Chemical Engineering and MS degrees in Industrial Chemistry and Applied Statistics.
+ That monster Italian last name you see is pronounced *CO-CO-LEE-KEY-OH*.  I am a statistician/data scientist currently working as an adjunct instructor in the Science Department at Rockland Community College where I teach Chemistry, Engineering, Math and Physics. When I worked in industry I was a Six Sigma Black Belt and quality engineer in the pharmaceutical, health care and medical device industries. Previous to that I worked as an R & D Engineer in the aerospace and fuel cell industries.  I have a BS in Chemical Engineering and MS degrees in Industrial Chemistry and Applied Statistics.
 
 ## Statistics/Data Science Interests
 
