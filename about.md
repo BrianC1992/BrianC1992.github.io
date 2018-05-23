@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Brian Cocolicchio 
-
 Pronounced(CO-CO-LEE-KEY-OH)
 permalink: /about/
 ---
