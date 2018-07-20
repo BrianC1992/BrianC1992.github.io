@@ -46,7 +46,7 @@ Data science, to me, seems more like a house with a roof, support columns and a 
       </tr>
     </table>                        
                         
-   The thing with many statistical methods is that they tend to be based on assumptions on how the data are distributed. Even those that are not (non-parametric methods) have limitations.  These limitations and assumptions can be easily missed by an untrained or novice analyst and can render any conclusions useless.  With the advent of statistical software and the influx of people who lack training in statistics coming into the profession, faulty analyses .  Add to this the idea that the "algorithm" can make sense of a bad experimental design and you have a data science house that is built on a foundation of sand with the inevitable collapse to follow.
+   The thing with many statistical methods is that they tend to be based on assumptions on how the data are distributed. Even those that are not (non-parametric methods) have limitations.  These limitations and assumptions can be easily missed by an untrained or novice analyst and can render any conclusions useless.  With the advent of statistical software and the influx of people who lack training in statistics coming into the profession, faulty analyses are the inevitable result.  Add to this the idea that the "algorithm" can make sense of a bad experimental design and you have a data science house that is built on a foundation of sand with the inevitable collapse to follow.
 
 2. The Columns- Computing Tools
 
