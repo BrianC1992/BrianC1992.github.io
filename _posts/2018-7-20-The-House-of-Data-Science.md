@@ -9,12 +9,12 @@ We have all seen Drew Conway's iconic Venn Diagram mapping out the facets of Dat
 ![Figure 1: The House of Data Science](/images/DSHouse.png?raw=true)
 
 
-Data science, to me, seems more like a house with a roof, support columns and a foundation.  Each structural element symbolizes the three main components making up data science: Statistical Methods, Computing Tools, and communication skills/domain knowledge. Let's describe this from the bottom up.
+Data science, to me, seems more like a house with a roof, support columns and a foundation.  Each structural element symbolizes the three main components making up data science: Statistical Methods, Computing Tools (R, SQL and Python), and communication skills/domain knowledge. Let's describe this from the bottom up.
 
 1. The Foundation - Statistical Methods
    
    **Statistics is the foundation of data science.** Everything that is done in data science is dependent on statistical methods. It doesn't matter whether you are focused on prediction or explanation, the code you are running on your computer is based on a statistical method that was developed a long time ago. Some examples of this are shown in the table below:
-
+   
                                      | Statistical Method | Development Date |
                                      ---------------------|-------------------
                                      |  Linear Regression |   1795, 1805     |
@@ -24,7 +24,6 @@ Data science, to me, seems more like a house with a roof, support columns and a 
                                      |   Ridge Regression |      1970        |
                                      |   Bootstrapping    |      1979        |
 
-   
    The thing with many statistical methods is that they tend to be based on assumptions on how the data are distributed. Even those that are not (non-parametric methods) have limitations.  These limitations and assumptions can be easily missed by an untrained or novice analyst and can render any conclusions useless.  With the advent of statistical software and the influx of people who lack training in statistics coming into the profession, faulty analyses .  Add to this the idea that the "algorithm" can make sense of a bad experimental design and you have a data science house that is built on a foundation of sand with the inevitable collapse to follow.
 
    2. The Columns- Computing Tools
