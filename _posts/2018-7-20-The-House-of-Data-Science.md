@@ -6,7 +6,7 @@ title: The House of Data Science
 We have all seen Drew Conway's iconic Venn Diagram mapping out the facets of Data Science as a discipline.  Since 2013, when he presented the diagram, there have been various attempts at updating the diagram to further flesh out what makes up data science.  None of them really make describing the discipline any easier and if anything, has made the situation even more confusing for some (Data Science = Software Development).  They also don't make developing a curriculum for data science instruction or teaching the subject any easier.  To that end, here is my attempt at describing the discipline of data science shown in the picture below.
 
 
-![Figure 1: The House of Data Science](/images/DSHouse.png=20x20)
+![Figure 1: The House of Data Science](/images/DSHouse.png?raw=true)
 
 
 Data science, to me, seems more like a house with a roof, support columns and a foundation.  Each structural element symbolizes the three main components making up data science: Statistical Methods, Computing Tools (R, SQL and Python), and communication skills/domain knowledge. Let's describe this from the bottom up.
@@ -15,7 +15,7 @@ Data science, to me, seems more like a house with a roof, support columns and a 
    
    **Statistics is the foundation of data science.** Everything that is done in data science is dependent on statistical methods. It doesn't matter whether you are focused on prediction or explanation, the code you are running on your computer is based on a statistical method that was developed a long time ago. Some examples of this are shown in the table below:
 
-                                     |---
+                                     
                                      |Statistical Method|Development Date| 
                                      |:----:|:----:|
                                      |Linear Regression|1795, 1805|
