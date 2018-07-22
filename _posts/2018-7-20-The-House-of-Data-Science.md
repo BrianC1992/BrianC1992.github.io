@@ -16,6 +16,7 @@ Data science, to me, seems more like a house with a roof, support columns and a 
 
   
     <table>
+      <table style="margin:auto;">
       <tr>
         <th>Statistical Method</th>
         <th>Development Date</th>
