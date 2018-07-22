@@ -15,35 +15,35 @@ Data science, to me, seems more like a house with a roof, support columns and a 
    **Statistics is the foundation of data science.** Everything that is done in data science is dependent on statistical methods. It doesn't matter whether you are focused on prediction or explanation, the code you are running on your computer is based on a statistical method that was developed a long time ago. Some examples of this are shown in the table below:
 
   
-    <table>
+    <table border="1">
       <table style="margin:auto;">
       <tr>
         <th>Statistical Method</th>
         <th>Development Date</th>
       </tr>
       <tr>
-        <th>Linear Regression</th>
-        <th>1795, 1805</th>
+        <td>Linear Regression</td>>
+        <td>1795, 1805</td>
       </tr>
       <tr>
-        <th>K-Means Clustering</th>
-        <th>1957</th> 
+        <td>K-Means Clustering</td>
+        <td>1957</td> 
       </tr>
       <tr>
-        <th>Logistic Regression</th>
-        <th>1958</th>
+        <td>Logistic Regression</td>
+        <td>1958</td>
       </tr>
       <tr>
-        <th>K-Nearest Neighbors</th>
-        <th>1951-1967</th>
+        <td>K-Nearest Neighbors</td>
+        <td>1951-1967</td>
       </tr>
       <tr>
-        <th>Rigde Regression</th>
-        <th>1970</th>
+        <td>Rigde Regression</td>
+        <td>1970</td>
       </tr>
       <tr>
-        <th>Bootstrapping</th>
-        <th>1979</th>
+        <td>Bootstrapping</td>
+        <td>1979</td>
       </tr>
     </table>                        
 <br/>   
