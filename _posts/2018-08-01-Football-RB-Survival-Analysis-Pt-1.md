@@ -13,7 +13,7 @@ To do the analysis I used what is called Kaplan-Meier Estimation. It is a way of
 
 $$ \hat{S}(t) = \prod_{i:t_i \le t} \left(1-\frac{d_i}{n_i}\right)$$
 
-Where: $\hat{S}(t)$-The probability of remaining in the NFL at time t,$t_i$ - Time where at least one retirement/release has happened, $d_i$ - The number of retirements/releases occurring at time t, $n_i$ - The number of players that are still in the NFL at time t. 
+Where: $$\hat{S}(t)$$-The probability of remaining in the NFL at time t,$$t_i$$ - Time where at least one retirement/release has happened, $$d_i$$ - The number of retirements/releases occurring at time t, $$n_i$$ - The number of players that are still in the NFL at time t. 
 
 So what did I find? Figure 1 shows the survival curve for all running backs. The x-axis describes the total number of seasons in the NFL. The y-axis shows the probability of remaining in the league. In this case, the red line shows the probability that half of the 1230 RB's are still in the league. Where this line intersects the survival curve give you the median career length of a running back. This happens after 3 seasons.
 
