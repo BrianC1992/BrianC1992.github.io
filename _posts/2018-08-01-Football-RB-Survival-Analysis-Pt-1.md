@@ -3,8 +3,6 @@ layout: post
 title: Why College Running Backs are Smart to go Pro Early. Survival Analysis Using KM-Estimation.
 ---
 
-<script type="text/javascript" async src="Users/bac_home/Documents/Github/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
 Conventional wisdom has it that running backs have short careers. So much so that it is in the best interest of elite college football RB's such as Dalvin Cook ( and players at other positions) to go pro as early as possible. The purpose of this post is to see if one can show, using publicly available data, that this is the case. To do this I used a statistical technique called survival analysis.
 
 Survival analysis is a technique that is focused on modeling the time until an event. The event of interest can be a number of things: death, occurrence of a disease, divorce, marriage, finding a job, changing a job, failure of a part, etc. These techniques were initially used in the medical field so death was the event of interest. This is where the name survival analysis came from. In this case, I used the time until retirement or release from a team to determine to probability of remaining in the league for a specific number of seasons.
