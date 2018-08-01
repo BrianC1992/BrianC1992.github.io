@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Why College Running Backs are Smart to go Pro Early: Survival Analysis Using KM-Estimation.
-fig_caption:Yes
+title: Why College Running Backs are Smart to go Pro Early:Survival Analysis Using KM-Estimation.
 ---
 
 Conventional wisdom has it that running backs have short careers. So much so that it is in the best interest of elite college football RB's such as Dalvin Cook ( and players at other positions) to go pro as early as possible. The purpose of this post is to see if one can show, using publicly available data, that this is the case. To do this I used a statistical technique called survival analysis.
@@ -11,7 +10,6 @@ Survival analysis is a technique that is focused on modeling the time until an e
 The data for this analysis comes from the Pro Football Reference.com(http://www.pro-football-reference.com) website where I used the data of 1230 running backs from 1970 to 2014. In using this data I am assuming that a running back made the team. This includes players that were starters and non-starters.
 
 To do the analysis I used what is called Kaplan-Meier Estimation. It is a way of calculating the probability of remaining in the league for x number of seasons. You do this by dividing the number of players that are released/waived/cut or retire during a season by the number of players remaining in the league after that season. Here is the math behind it:
-
 
 $$ \hat{S}(t) = \prod_{i:t_i \le t} \left(1-\frac{d_i}{n_i}\right)$$
 
