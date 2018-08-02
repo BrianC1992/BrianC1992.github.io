@@ -11,7 +11,7 @@ The data for this analysis comes from the Pro Football Reference.com(http://www.
 
 To do the analysis I used what is called Kaplan-Meier Estimation. It is a way of calculating the probability of remaining in the league for x number of seasons. You do this by dividing the number of players that are released/waived/cut or retire during a season by the number of players remaining in the league after that season. 
 
-Here is the math behind it:
+Here is the equation that we use for K-M Estimation:
 
 $$\hat{S}(t) = \prod_{i:t_i \le t} \left(1-\frac{d_i}{n_i}\right)$$
 
@@ -23,10 +23,12 @@ Where:
 
 The product symbol, \\(\prod\\), tells you that you have to multiply everything after the symbol.  So basically you are multiplying the fraction of players remaining in the league in year *n+1* by the fraction remaining in year *n*.  This is done repeatedly for every year.
 
-Here is an example: Lets say that we start out with 100 RB's.  After year 1, 75 remain.  After year 2, 60 remain. After year 3, 50 remain.  To find the survival probabilities after every year we do the following calculation:
+Here is an example: Let's say that we start out with 100 RB's.  After year 1, 75 remain.  After year 2, 60 remain. After year 3, 50 remain.  To find the survival probabilities after every year we do the following calculation:
 
-* Year 1: \\(\hat{S}(t) = 1-\frac {100-75}{100} = 1-\frac{25}{100} = \frac{75}{100} = 0.75\\)  
+* Year 1: \\(\hat{S}(t) = 1-\frac {100-75}{100} = 1-\frac{25}{100} = \frac{75}{100} = 0.75\\) 
+ 
 * Year 2: \\(\hat{S}(t) =(0.75) (1-\frac {75-60}{75}) =(0.75) (1-\frac{15}{75}) = (0.75)(\frac{60}{75}) = (0.75)(0.80) = 0.60\\)
+
 * Year 3: \\(\hat{S}(t) =(0.75)(0.60) (1-\frac {60-50}{60}) =(0.75)(0.80) (1-\frac{10}{60}) = (0.75)(0.80)(\frac{50}{60}) = (0.75)(0.80)(0.8333) = 0.50\\)
 
 At the end of three years, we have a survival probability of 0.50.  This can be extended for as many years as needed.
