@@ -12,7 +12,7 @@ The data for this analysis comes from the Pro Football Reference.com(http://www.
 To do the analysis I used what is called Kaplan-Meier Estimation. It is a way of calculating the probability of remaining in the league for x number of seasons. You do this by dividing the number of players that are released/waived/cut or retire during a season by the number of players remaining in the league after that season. Here is the math behind it:
 
 
-$$\hat{S}(t) = \prod_{i:t_i \le t} \left(1-\frac{d_i}{n_i}\right)$$
+\\(\hat{S}(t) = \prod_{i:t_i \le t} \left(1-\frac{d_i}{n_i}\right)\\)
 
 
 Where: \\[\hat{S}(t)\\]-The probability of remaining in the NFL at time t,\\[t_i\\] - Time where at least one retirement/release has happened, \\[d_i\\] - The number of retirements/releases occurring at time t, \\[n_i\\] - The number of players that are still in the NFL at time t. 
