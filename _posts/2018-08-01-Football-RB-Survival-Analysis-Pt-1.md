@@ -48,6 +48,6 @@ There are two things that you can take from this analysis:
 1. The career of your average NFL RB is very short.  Three years.
 2. You are better off going pro early if you are a star RB in college since your chances of staying in the league are much better the earlier you start.
 
-So what factors other than age affect the longevity of an NFL RB.  That is the subject of another post.
+So what factors other than age affect the longevity of an NFL RB?  That is the subject of another post.
 
 
